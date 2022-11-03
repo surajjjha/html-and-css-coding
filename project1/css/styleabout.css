@@ -1,0 +1,407 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,300&display=swap');
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    }
+
+ html
+{
+    font-size: 62.5%;
+}
+body{width: 100vh;}
+/* ############################################### nav  bar ##########################################  */
+
+
+
+
+
+
+.nav_item{display: inline-block;
+    text-decoration: none;}
+
+.navbar .logo
+{
+    float: left;
+}
+.logo{ 
+   
+  position:relative;
+  left: 20%;
+  top: 20px;
+  
+}
+.nav_items
+    {
+        
+        float: right;
+        position: relative;
+         right: 20%;
+         top: 20px;
+         margin-bottom: 0.1rem;
+         word-spacing: 0.6rem;
+         text-transform:uppercase;
+         
+    }
+    .nav_item a
+    {  
+    
+         text-decoration: none;
+        
+    }
+#clean{clear: both;}
+
+nav{width: 210vh;}
+
+.container
+    {
+       
+        max-width: 95vh
+        width: 100vh;
+        height: 20vh;
+    }
+
+
+ a:visited
+{
+    color:rgb(127, 255, 176);
+}
+
+ a:hover
+{
+    border-bottom: 0.2rem solid white;
+    
+}
+/* ############################################### nav  bar ##########################################  */
+
+/* ############# Utility classes############### */
+
+
+.dark-black
+{
+    background-color: #555;
+}
+
+
+.button-primary
+{
+     border: 0.3em white solid;
+     border-radius: 2em;
+     padding: 0em;
+     background-color: white;
+     text-align: center;
+     word-spacing: 0.1em;
+    
+    
+     
+}
+
+.button-secondary
+{
+   
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 0.4em;
+    border: 0.2em red solid;
+    border-radius: 1em;
+    background-color: white;
+    color: red;
+    
+    
+}
+
+
+.text-large
+{
+    font-size: 2.5rem;
+}
+
+.text-medium
+{
+    font-size: 1.7rem;
+}
+
+.text-red
+{
+    color: red;
+}
+
+.text-black
+{
+    color: black;
+}
+
+
+.text-white
+{
+    color: white;
+    
+}
+
+.text-gray
+{
+    color: #555;
+}
+
+
+/* ###################### Utility classes ############## */
+
+/* ############################ section styling  ######################################  */
+
+.about
+{
+   
+    text-align: left;
+    position:relative;
+  left: 40%;
+  top: 20px;
+  
+    
+}
+.about-heading
+{
+    border-bottom: 4px solid red;
+}
+
+.about-para
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+.para-right
+{
+    float: right;
+}
+.para-left
+{
+    float: left;
+}
+.clean
+{
+    clear: both;
+}
+.about-para p::before
+{
+    content: '\2713';
+    color: #c63946;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+.count
+{
+    margin: 2rem;
+    text-align: center;
+    
+}
+.count-para1
+{
+    width: 25%;
+   
+    text-align: center;
+    text-transform: capitalize;
+}.count-para2
+{
+    width: 25%;
+    text-align: center;
+    text-transform: capitalize;
+}.count-para3
+{
+    width: 25%;
+    text-align: center;
+    text-transform: capitalize;
+}.count-para4
+{
+    width: 25%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.banner
+{
+   
+   background-image: radial-gradient( circle 860px at 11.8% 33.5%,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+   padding: 0.5rem 0.5rem;
+
+}
+.text2
+{
+    /* border: 0.1px solid white; */
+    width: 40%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+    padding: 1rem 1rem;
+    
+  text-align: right;
+}
+.text1
+{
+    width: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+}
+.banner a
+{
+    color: white;
+    text-align: right;
+    display: inline-block;
+    padding: 0.3rem 2.5rem;
+    text-decoration: none;
+
+}
+/* ############################ section styling  ######################################  */
+
+
+
+
+
+
+
+.footer
+{
+   
+    text-align: center;
+    margin-top: 55vh;
+    width: 210vh;
+    background-color: #263238;
+    line-height: 1rem;
+    padding-top: 3rem;
+  
+}
+
+.social-media
+{
+    word-spacing: 2em;
+    margin-top: 2rem;
+    text-align: center;
+    /* padding-top: 3rem; */
+    padding-bottom: 3rem;
+}
+.footer p{
+    padding-bottom: 2rem;
+    
+}
+
+@media (max-width:500px) 
+{
+    html{ font-size: 50%;}
+    .navbar
+    {
+          width: 50vh;
+          text-align: center;
+    }
+    .about .about-para .para-right
+    {
+        float: none;
+    }
+    .about .about-para .para-left
+    {
+        float: none;
+    }
+    .container
+    {
+        width: 40vh;
+        left: 0;
+    }
+    .about
+{
+   
+    text-align: auto;
+   
+  left: 0%;
+  top: 0px;
+  
+    
+}
+.footer
+{
+   
+    text-align: center;
+    margin-top: 55vh;
+    width: 20vh;
+    background-color: #263238;
+    line-height: 0;
+    padding-top: 0;
+  
+}
+.banner{
+    margin: 0;
+    padding: 0;
+}
+
+.footer
+{
+   
+    text-align: center;
+    margin-top: 15vh;
+    width: 40vh;
+    background-color: #263238;
+   
+    padding-top: 1rem;
+  
+}
+
+ 
+}
+
+@media (min-width:501px) and (max-width:700)
+{
+    html{ font-size: 50%;}
+    .navbar
+    {
+          width: 20vh;
+          text-align: center;
+    }
+    .about .about-para .para-right
+    {
+        float: none;
+    }
+    .about .about-para .para-left
+    {
+        float: none;
+    }
+    .container
+    {
+        width: 20vh;
+        left: 0;
+        right: 100%;
+    }
+    .about
+{
+   
+    text-align: auto;
+   position: relative;
+  left: 0%;
+  top: 20px;
+  
+    
+}
+.footer
+{
+   
+    text-align: center;
+    margin-top: 15vh;
+    width: 40vh;
+    background-color: #263238;
+    line-height: 0;
+    padding-top: 0;
+  
+}
+.banner{
+    margin: 0;
+    padding: 0;
+}
+
+.footer
+{
+   
+    text-align: center;
+    margin-top: 15vh;
+    width: 40vh;
+    background-color: #263238;
+   
+    padding-top: 1rem;
+  
+}
+
+}
