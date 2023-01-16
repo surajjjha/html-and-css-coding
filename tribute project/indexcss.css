@@ -1,0 +1,44 @@
+ #flex1{
+    display: flex;
+    float: left;
+    width: 33%;
+ }
+.lightback{
+    background-color: rgb(88, 97, 97);
+    color: azure;
+ }
+ #navbar{
+   padding-bottom: 10%;
+   
+ }
+.lightback:hover{
+   background-color: rgb(195, 230, 218);
+   transition-duration: 2s;
+   color:black;
+}
+ #sec1{
+    /* padding-top: 10rem; */
+      
+    border-style: double;
+    border-color: black;
+ }
+#image{
+      
+      
+     
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 30%;
+     border-style:groove;
+     border-radius: 2rem;
+     border-color: rgb(43, 43, 32);
+   
+ }
+#div1{
+   background-color:  #362727;
+ 
+ }
+#div2{
+   background-color: rgb(247, 247, 210);
+}
